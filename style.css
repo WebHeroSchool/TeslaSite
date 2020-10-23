@@ -49,6 +49,7 @@ body {
 
 .header {
   padding: 40px 0;
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -112,4 +113,47 @@ body {
 .menu__item_active::after {
   opacity: 1;
   width: 100%;
+}
+
+.main__title {
+  margin: 0 0 40px 0;
+  font-family: 'pt_serifbold', arial, helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 66px;
+  line-height: 87px;
+  color: #000;
+}
+
+.main {
+  padding: 0 63% 100px 0;
+  background: url('img/main.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.main__subtitle {
+  margin: 0 0 41px 0;
+  font: 500 22px/26px 'Roboto', arial, helvetica, sans-serif;
+}
+
+.main__button {
+  padding: 21 px 18px;
+  display: inline-block;
+  color: #fff;
+  background: #0056ec;
+  font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;
+  width: 270.75px;
+  height: 57px;
+}
+
+.main__button:hover {
+  opacity: .5;
+}
+
+.main__title-text_highlight {
+  background: #ECF3FF;
 }
