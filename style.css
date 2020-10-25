@@ -48,7 +48,7 @@ body {
 
 .header {
   padding: 40px 0;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   display: flex;
   justify-content: space-between;
 }
@@ -133,6 +133,7 @@ body {
 
 .main__subtitle {
   margin: 0 0 41px 0;
+  padding-right: 150px;
   font: 500 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
