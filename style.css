@@ -54,6 +54,7 @@ body {
 }
 
 .menu {
+  padding-right: 102px;
   display: inline-block;
   display: flex;
   align-items: center;
@@ -128,7 +129,7 @@ body {
   padding: 0 63% 250px 0;
   background: url('img/main.svg');
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: 755px -75px;
 }
 
 .main__subtitle {
