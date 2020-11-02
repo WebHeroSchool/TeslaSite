@@ -48,13 +48,12 @@ body {
 
 .header {
   padding: 40px 0;
-  margin-bottom: 200px;
+  margin-bottom: 127px;
   display: flex;
   justify-content: space-between;
 }
 
 .menu {
-  padding-right: 102px;
   display: inline-block;
   display: flex;
   align-items: center;
@@ -70,7 +69,7 @@ body {
 }
 
 .menu__item:last-child {
-  margin-right: 0;
+  margin-right: 10px;
 }
 
 .menu__item_active::after {
@@ -126,15 +125,15 @@ body {
 }
 
 .main {
-  padding: 0 63% 250px 0;
+  padding: 73px 63% 250px 0;
   background: url('img/main.svg');
   background-repeat: no-repeat;
-  background-position: 755px -75px;
+  background-position: 100% 0;
 }
 
 .main__subtitle {
-  margin: 0 0 41px 0;
-  padding-right: 150px;
+  margin: 0 0 36px 0;
+  max-width: 450px;
   font: 500 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
