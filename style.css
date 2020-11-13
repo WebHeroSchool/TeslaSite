@@ -7,6 +7,13 @@ body {
   width: 80%;
 }
 
+@media (max-width: 1366px) {
+  .wrapper {
+    margin: auto;
+    width: 68%;
+  }
+}
+
 @media (max-width: 1024px) {
   .wrapper {
     margin: auto;
@@ -58,7 +65,7 @@ body {
 
 @media (max-width: 1366px) {
   .header {
-    padding-right: 155px;
+    padding-right: 0;
     margin-bottom: 72px;
   }
 }
@@ -72,7 +79,8 @@ body {
 
 @media (max-width: 768px) {
   .header {
-    margin-bottom: -10px;
+    margin-bottom: -12px;
+    padding-top: 20px;
   }
 }
 
@@ -199,9 +207,9 @@ body {
 
 @media (max-width: 1366px) {
   .main {
-    padding: 73px 63% 250px 0;
-    background-size: 46%;
-    background-position: 71% 15px;
+    padding: 73px 58% 250px 0;
+    background-size: 54%;
+    background-position: 98% 15px;
   }
 }
 
@@ -300,8 +308,8 @@ body {
   display: flex;
   align-items: center;
   position: fixed;
-  top: 43px;
-  right: 43px;
+  top: 27px;
+  right: 25px;
   width: 26px;
   height: 26px;
   cursor: pointer;
