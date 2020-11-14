@@ -257,24 +257,10 @@ body {
 @media (max-width: 768px) {
   .main__subtitle {
     max-width: 250px;
-    /*margin-bottom: 9px;
-    padding-left: 48px;*/
     font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
     margin: auto;
   }
 }
-
-/*@media (max-width: 510px) {
-  .main__subtitle {
-    padding-left: 110px;
-  }
-}
-
-@media (max-width: 312px) {
-  .main__subtitle {
-    padding-left: 21px;
-  }
-}*/
 
 .main__button {
   padding: 21px 18px;
