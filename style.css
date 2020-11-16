@@ -278,7 +278,7 @@ body {
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   text-decoration: none;
   border-radius: 4px;
-  transition: opacity 3s;
+  transition: opacity .3s;
   width: 240px;
   animation: flash 2s infinite linear;
 }
