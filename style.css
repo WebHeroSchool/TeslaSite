@@ -165,7 +165,7 @@ body {
 .main__title {
   margin: 0 0 40px 0;
   font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-  font-style: normal;
+
   font-weight: bold;
   font-size: 66px;
   line-height: 87px;
@@ -257,7 +257,6 @@ body {
 @media (max-width: 768px) {
   .main__subtitle {
     max-width: 250px;
-
     font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
     margin: auto;
   }
